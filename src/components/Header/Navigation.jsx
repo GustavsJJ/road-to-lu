@@ -1,13 +1,10 @@
 import React, { useState } from "react";
-import i18n from "../../i18n";
 import { withNamespaces } from "react-i18next";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   Collapse,
   Container,
-  Nav,
   Navbar,
-  NavbarBrand,
   NavbarToggler,
   NavItem,
 } from "reactstrap";

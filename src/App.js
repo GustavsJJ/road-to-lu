@@ -1,7 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ReactApp from "./views/ReactApp";
 import { withNamespaces } from "react-i18next";
 
@@ -27,10 +27,6 @@ function App() {
       </Router>
     </>
   );
-}
-
-function About() {
-  return <h2>About</h2>;
 }
 
 function Users() {
