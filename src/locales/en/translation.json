@@ -1,4 +1,15 @@
 {
     "Welcome to React": "Welcome to React and react-i18next",
-    "MY_ROAD_TO_UNIVERSITY": "My Road To University"
+    "MY_ROAD_TO_UNIVERSITY": "My Road To University",
+    "MENU": "Menu",
+    "HOME": "Home",
+    "OGRE": "Ogre",
+    "VIEWS": "Train - Views",
+    "MUSIC": "Train - Music",
+    "ORIGO": "Origo",
+    "RIGA": "Riga",
+    "UNIVERSITY": "University",
+    "DESC": "It all begins",
+
+    "PROJ_DETAILS": "More information about this project"
 }

@@ -10,15 +10,14 @@ function Header({ t }) {
   };
 
   return (
-    <div className="header p-3">
-      <div className="d-flex">
-        <h5>{t("Welcome to React")}</h5>
-        <div className="mx-5">
-          <button onClick={() => changeLanguage("lv")}>lv</button>
-          <button onClick={() => changeLanguage("en")}>en</button>
-        </div>
+    <div className="header p-5 pb-3">
+      <div className="language-selector d-flex">
+        <a onClick={() => changeLanguage("lv")}>LV </a>
+        <p className="mx-1">/</p>
+        <a onClick={() => changeLanguage("en")}> EN</a>
       </div>
-
+      <h3 className="logo mx-4">{t("MY_ROAD_TO_UNIVERSITY")}</h3>
+      <hr style={{ width: "70%", marginLeft: "auto", marginRight: "auto" }} />
       <Navigation />
     </div>
   );

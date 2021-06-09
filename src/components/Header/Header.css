@@ -1,6 +1,27 @@
 div.header {
-  width: 100vw;
-  background-color: #190547;
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  background-color: #170547;
   color: white;
   min-height: 70px;
+}
+
+div.header .language-selector {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+div.header .language-selector a {
+  cursor: pointer;
+}
+
+div.header .language-selector a:hover {
+  color: rgb(172, 172, 172);
+  text-decoration: underline;
+}
+
+div.header .logo {
+  font-size: calc(10px + 2vmin);
 }

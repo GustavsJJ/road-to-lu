@@ -1,0 +1,30 @@
+div.footer {
+  background-color: #282c34;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.lu-logo {
+  margin: 30px;
+  width: 200px;
+}
+
+div.footer a.github-link,
+a.repo-link {
+  color: white;
+  text-decoration: none;
+}
+
+div.footer a.github-link:hover,
+a.repo-link:hover {
+  color: rgb(172, 172, 172);
+  text-decoration: underline;
+}
+
+div.footer .github-link .octicon {
+  margin-left: 5px;
+}

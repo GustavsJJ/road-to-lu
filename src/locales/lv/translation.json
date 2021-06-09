@@ -1,3 +1,15 @@
 {
-    "Welcome to React": "Sveicieni no React un react-i18next"
+    "Welcome to React": "Sveicieni no React un react-i18next",
+    "MY_ROAD_TO_UNIVERSITY": "Mans ceļš uz Universitāti",
+    "MENU": "Izvēlne",
+    "HOME": "Mājas",
+    "OGRE": "Ogre",
+    "VIEWS": "Vilciens - Skati",
+    "MUSIC": "Vilciens - Mūzika",
+    "ORIGO": "Origo",
+    "RIGA": "Rīga",
+    "UNIVERSITY": "Universitāte",
+    "DESC": "Ceļš sākās",
+
+    "PROJ_DETAILS": "Vairāk informācijas par šo projektu"
 }
