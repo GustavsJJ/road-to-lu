@@ -12,13 +12,13 @@ function Header({ t }) {
   return (
     <div className="header p-5 pb-3">
       <div className="language-selector d-flex">
-        <a href="javascript:;" onClick={() => changeLanguage("lv")}>
+        <p className="lang" onClick={() => changeLanguage("lv")}>
           LV
-        </a>
+        </p>
         <p className="mx-1">/</p>
-        <a href="javascript:;" onClick={() => changeLanguage("en")}>
+        <p className="lang" onClick={() => changeLanguage("en")}>
           EN
-        </a>
+        </p>
       </div>
       <h3 className="logo mx-4">{t("MY_ROAD_TO_UNIVERSITY")}</h3>
       <hr style={{ width: "70%", marginLeft: "auto", marginRight: "auto" }} />

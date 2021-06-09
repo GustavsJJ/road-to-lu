@@ -13,11 +13,11 @@ div.header .language-selector {
   right: 10px;
 }
 
-div.header .language-selector a {
+div.header .language-selector p.lang {
   cursor: pointer;
 }
 
-div.header .language-selector a:hover {
+div.header .language-selector p.lang:hover {
   color: rgb(172, 172, 172);
   text-decoration: underline;
 }
