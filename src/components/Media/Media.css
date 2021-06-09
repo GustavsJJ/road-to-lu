@@ -1,25 +1,27 @@
 .container-media {
   display: flex;
   flex-direction: row;
-  align-items: center;
   padding-top: 30px;
   margin-bottom: 30px;
 }
 
 .container-media > img {
   margin-left: 0px;
-  width: 500px;
+  width: 480px;
   align-self: baseline;
 }
 
-.container-media > p {
-  margin-left: 20px;
+div.container-media > p {
+  margin-left: 80px;
   margin-bottom: 20px;
 }
 @media only screen and (max-width: 1029px) {
   .container-media > img {
     margin-top: 0px;
     margin-left: 20px;
+  }
+  .App div.container-media > p {
+    margin-left: 80px;
   }
 }
 
@@ -35,7 +37,7 @@
     margin: auto;
     justify-content: center;
   }
-  .container-media > p {
+  .App div.container-media > p {
     margin: 20px;
     margin-top: 0;
   }

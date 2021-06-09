@@ -7,10 +7,12 @@ import origo from "../images/origo.jpg";
 function Origo({ t }) {
   return (
     <div class="origo">
-      <Chapter title="ORIGO" description="DESC" />
+      <Chapter title="ORIGO" description="ORIGO_DESC" />
       <div className="container">
         <img className="hero-image" src={origo} alt="origo" />
-        <h5>{t("Welcome to React")}</h5>
+        <p>{t("ORIGO1")}</p>
+        <p>{t("ORIGO2")}</p>
+        <p>{t("ORIGO3")}</p>
       </div>
       <NextChapter to="/riga" />
     </div>

@@ -9,7 +9,7 @@ body .App {
 
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: baseline;
   margin: auto;
   justify-content: center;
   max-width: 1000px;
