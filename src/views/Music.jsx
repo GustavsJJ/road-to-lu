@@ -1,5 +1,6 @@
 import React from "react";
 import { withNamespaces } from "react-i18next";
+import { NextChapter } from "../components/NextChapter";
 import Chapter from "../components/Chapter/Chapter";
 
 function Music({ t }) {
@@ -9,6 +10,7 @@ function Music({ t }) {
       <div className="container">
         <h5>{t("Welcome to React")}</h5>
       </div>
+      <NextChapter to="/origo" />
     </div>
   );
 }

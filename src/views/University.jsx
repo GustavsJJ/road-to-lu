@@ -9,6 +9,9 @@ function University({ t }) {
       <div className="container">
         <h5>{t("Welcome to React")}</h5>
       </div>
+      <div className="next-chapter-container">
+        <h4 className="next-chapter-text">{t("END_OF_THE_ROAD")}</h4>
+      </div>
     </div>
   );
 }

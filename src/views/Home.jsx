@@ -7,34 +7,12 @@ import soma from "../images/soma.jpg";
 function Home({ t }) {
   return (
     <div class="home">
-      <Chapter title="HOME" description="DESC" />
+      <Chapter title="HOME" description="HOME_DESC" />
       <div className="container">
         <img className="hero-image" src={soma} alt="soma" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
-          repellendus laborum tenetur obcaecati maiores beatae fugit odio
-          voluptate accusantium, neque tempora animi illum error non assumenda
-          dicta accusamus, quisquam ipsam? Lorem ipsum, dolor sit amet
-          consectetur adipisicing elit. Et laborum excepturi quaerat fuga,
-          tempore voluptate animi blanditiis autem cum sed vitae laboriosam
-          minus, accusantium minima tenetur veritatis, incidunt magni dolorum!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
-          repellendus laborum tenetur obcaecati maiores beatae fugit odio
-          voluptate accusantium, neque tempora animi illum error non assumenda
-          dicta accusamus, quisquam ipsam? Lorem ipsum, dolor sit amet
-          consectetur adipisicing elit. Et laborum excepturi quaerat fuga,
-          tempore voluptate animi blanditiis autem cum sed vitae laboriosam
-          minus, accusantium minima tenetur veritatis, incidunt magni dolorum!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
-          repellendus laborum tenetur obcaecati maiores beatae fugit odio
-          voluptate accusantium, neque tempora animi illum error non assumenda
-          dicta accusamus, quisquam ipsam? Lorem ipsum, dolor sit amet
-          consectetur adipisicing elit. Et laborum excepturi quaerat fuga,
-          tempore voluptate animi blanditiis autem cum sed vitae laboriosam
-          minus, accusantium minima tenetur veritatis, incidunt magni dolorum!
-        </p>
+        <p>{t("HOME1")}</p>
+        <p>{t("HOME2")}</p>
+        <p>{t("HOME3")}</p>
       </div>
       <NextChapter to="/ogre" />
     </div>
