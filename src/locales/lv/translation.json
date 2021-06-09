@@ -19,7 +19,7 @@
     "MADE_BY": "Veidoja",
 
     "HOME_DESC": "Viss sākās te",
-    "HOME1": "Manas mājas atrodas divās vietās dažādās vietās gan Ogrē, gan Carnikavā . Un, lai gan braucu uz universitāti no abām šīm vietām, ceļš uz universitāti nemainās būtiski, jo abos gadījumos attālums  ir jāveic izmantojot vilcienu un nonākot Rīgas centrālajā vilcienu stacijā. Taču šoreiz es stāstīšu par ceļu no Ogres uz Latvijas Universitāti.",
+    "HOME1": "Manas mājas atrodas divās dažādās vietās gan Ogrē, gan Carnikavā . Un, lai gan braucu uz universitāti no abām šīm vietām, ceļš uz universitāti nemainās būtiski, jo abos gadījumos attālums  ir jāveic izmantojot vilcienu un nonākot Rīgas centrālajā vilcienu stacijā. Taču šoreiz es stāstīšu par ceļu no Ogres uz Latvijas Universitāti.",
     "HOME2": "Mans ceļš sākās manās mājās – Ogrē. Māja atrodas kalna augšā un katru rītu man ir iespēja pavērot skatu no augšas, caur manu logu, pār visu Pārogri. Mājām man ir īpaša nozīme, jo esmu vairāk introverts, un man patīk daudz laika pavadīt vienam un darot kādu no saviem hobijiem vai skatoties kaut ko no “Youtube”. Bez atpūtas man ir arī jāpalīdz tētim ar mājas darbiem, jo tā kā nedzīvojam Ogrē ilgi, ir daudzas lietas, kas pagaidām nav apmierinošā stadijā un kas prasa remontu. Un, protams, attālināto mācību un darba dēļ, manas mājas ir nedaudz kļuvušas par manu mazo ofisu, kas gan nepasliktina situāciju, bet drīzāk pat uzlabo.",
     "HOME3": "Kad esmu nomazgājies, paēdis, es esmu gatavs iet ārā no mājas un doties uz Pārogres staciju.",
 
@@ -46,8 +46,10 @@
     "RIGA3": "Mans ceļš no “Origo” līdz universitātei aizņem aptuveni 10 minūtes. Par laimi šis ceļš, lai gan īss, pārņem ar savu skaistumu sākot ar pavasarīgo skatu uz parku beidzot ar brīnišķīgo vēstniecību, mūzikas skolu un pašas universitātes arhitektūru.",
 
     "UNIVERSITY_DESC": "Ceļš beidzās",
-
-
+    "UNIVERSITY1": "Visbeidzot es esmu nonācis universitātē. Izvēle studēt datoriku man bija jau ilgu laiku, taču ideja mācīties Latvijas Universitātē vai Rīgas Tehniskajā Universitātē vēl mani mocīja īsi pirms gala lēmuma.",
+    "UNIVERSITY2": "Datorzinību pamatus es jau apguvu Rīgas Valsts 1. ģimnāzijā, kas atrodas ļoti netālu no manas esošās universitātes, taču papildus tam es gāju uz programmēšanas un robotikas pulciņiem, kas vēl jo vairāk attīstīja manas prasmes šajā nozarē. Es iemācījos programmēt C++ valodā, un šīs zināšanas man noderēja vēlāk studijās.",
+    "UNIVERSITY3": "Universitātē esmu nostiprinājis savas iepriekšējās zināšanas, taču vēl jo neizmērojami vairāk papildinājis tās vēl lielāku klāstu ar zināšanām un saticis daudzus jaunus draugus. Turklāt pateicoties mācībām universitātē, man bija iespēja iestāties praksē un gūt pieredzi būdams kā īsts programmētājs.",
+    "UNIVERSITY4": "Beigās tomēr es ar lepnu sirdi varu teikt, ka darīju pareizi. Kad izvēlējos mācīties te, man bija nojauta, ka šī ir laba izvēle, bet ar katru dienu, kuru pavadu Latvijas Universitātē, es saprotu arvien vairāk, ka kļūstu par daudz izglītotāku un nobriedušāko jaunieti sabiedrībā, un daudz tuvāk tādam cilvēkam, kāds vēlos kļūt.",
 
     "END_OF_THE_ROAD": "beigas"
 }

@@ -6,7 +6,6 @@ import "./ReactApp.css";
 function ReactApp({ t }) {
   return (
     <div className="ReactApp">
-      <h1>{t("Welcome to React")}</h1>
       <header className="ReactApp-header">
         <img src={logo} className="ReactApp-logo" alt="logo" />
         <p>

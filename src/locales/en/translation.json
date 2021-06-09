@@ -47,8 +47,10 @@
     "RIGA3": "My journey from Origo to the university takes about 10 minutes. Fortunately this path although short takes on its beauty from the spring view of the park to the wonderful architecture of embassy, music school and the architecture of the university itself.",
 
     "UNIVERSITY_DESC": "The road ends",
-
-
+    "UNIVERSITY1": "Finally, I have come to university. I had the thought to study computer science for a long time, but the idea of studying at the University of Latvia or Riga Technical University was still hard decidion for me.",
+    "UNIVERSITY2": "I already learned the basics of computer science at the Riga State 1st Gymnasium, which is very close to the university, in addition I went to programming and robotics groups, which further developed my skills in this field. I learned to program in C ++ and this knowledge was useful to me later in my studies.",
+    "UNIVERSITY3": "At the university I have consolidated my previous knowledge, but even more immeasurably supplemented it with an even wider range of knowledge and met many new friends. Furthermore thanks to studying at university I had the opportunity to put myself into practice and gain experience as a real programmer.",
+    "UNIVERSITY4": "In the end I can proudly say that I did the right thing. When I chose to study here I had a feeling that this was a good choice, but with each day I spend at the University of Latvia I realize more and more that I am becoming a more educated and mature young person in society and much closer to the person I want to become.",
     
     "END_OF_THE_ROAD": "the end"
 }
