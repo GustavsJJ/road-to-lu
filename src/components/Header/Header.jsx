@@ -12,11 +12,11 @@ function Header({ t }) {
   return (
     <div className="header p-5 pb-3">
       <div className="language-selector d-flex">
-        <a href="" onClick={() => changeLanguage("lv")}>
+        <a href="javascript:;" onClick={() => changeLanguage("lv")}>
           LV
         </a>
         <p className="mx-1">/</p>
-        <a href="" onClick={() => changeLanguage("en")}>
+        <a href="javascript:;" onClick={() => changeLanguage("en")}>
           EN
         </a>
       </div>
