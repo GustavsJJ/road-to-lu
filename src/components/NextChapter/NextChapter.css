@@ -1,0 +1,23 @@
+.next-chapter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  padding: 100px;
+}
+
+.next-chapter-button {
+  font-size: 20px;
+  border: none;
+  color: white;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: blue;
+  border-radius: 50px;
+}
+
+.next-chapter-link:hover button {
+  background-color: rgb(0, 0, 165);
+}

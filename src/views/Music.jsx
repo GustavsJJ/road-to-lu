@@ -6,7 +6,7 @@ function Music({ t }) {
   return (
     <div class="music">
       <Chapter title="MUSIC" description="DESC" />
-      <div className="body">
+      <div className="container">
         <h5>{t("Welcome to React")}</h5>
       </div>
     </div>
