@@ -1,7 +1,33 @@
-.App {
+body .App {
   text-align: justify;
+  font-family: "Exo 2", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 .App .container {
   min-height: calc(100vh - 500px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  max-width: 1000px;
+  padding: 0;
+}
+
+.App .container .hero-image {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.App .container p {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1029px) {
+  .App .container p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }

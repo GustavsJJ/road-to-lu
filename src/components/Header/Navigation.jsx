@@ -7,28 +7,33 @@ import "./Navigation.css";
 function Navigation({ t }) {
   const [isOpen, setIsOpen] = useState(false);
   const handleToggle = () => setIsOpen(!isOpen);
+  const navigationToggleClick = () => {
+    setIsOpen(false);
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  };
 
   const links = (
     <ul>
-      <Link to="/home">
+      <Link to="/home" onClick={navigationToggleClick}>
         <li>{t("HOME")}</li>
       </Link>
-      <Link to="/ogre">
+      <Link to="/ogre" onClick={navigationToggleClick}>
         <li>{t("OGRE")}</li>
       </Link>
-      <Link to="/views">
+      <Link to="/views" onClick={navigationToggleClick}>
         <li>{t("VIEWS")}</li>
       </Link>
-      <Link to="/music">
+      <Link to="/music" onClick={navigationToggleClick}>
         <li>{t("MUSIC")}</li>
       </Link>
-      <Link to="/origo">
+      <Link to="/origo" onClick={navigationToggleClick}>
         <li>{t("ORIGO")}</li>
       </Link>
-      <Link to="/riga">
+      <Link to="/riga" onClick={navigationToggleClick}>
         <li>{t("RIGA")}</li>
       </Link>
-      <Link to="/university">
+      <Link to="/university" onClick={navigationToggleClick}>
         <li>{t("UNIVERSITY")}</li>
       </Link>
     </ul>

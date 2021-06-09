@@ -3,15 +3,13 @@ import { withNamespaces } from "react-i18next";
 import Chapter from "../components/Chapter/Chapter";
 import { NextChapter } from "../components/NextChapter";
 import soma from "../images/soma.jpg";
-import "./Home.css";
 
 function Home({ t }) {
   return (
     <div class="home">
       <Chapter title="HOME" description="DESC" />
       <div className="container">
-        <img src={soma} alt="soma" style={{ width: "100%" }} />
-        <h5>{t("Welcome to React")}</h5>
+        <img className="hero-image" src={soma} alt="soma" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
           repellendus laborum tenetur obcaecati maiores beatae fugit odio
@@ -38,7 +36,7 @@ function Home({ t }) {
           minus, accusantium minima tenetur veritatis, incidunt magni dolorum!
         </p>
       </div>
-      <NextChapter />
+      <NextChapter to="/ogre" />
     </div>
   );
 }

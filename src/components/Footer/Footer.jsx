@@ -13,8 +13,8 @@ function Footer() {
         src={i18n.language === "lv" ? LuLogoLV : LuLogoEN}
         alt="LU-logo"
       />
-      <div className="d-flex">
-        <p style={{ alignItems: "left", color: "white" }}>
+      <div className="d-flex flex-wrap justify-content-around">
+        <p className="mx-3" style={{ alignItems: "left", color: "white" }}>
           Made by:{" "}
           <a
             className="github-link"
@@ -38,12 +38,11 @@ function Footer() {
             </svg>
           </a>
         </p>
-        <p className="mx-3"></p>
-        <p>gustavs.jakobsons@gmail.com</p>
+        <p className="mx-4">gustavs.jakobsons@gmail.com</p>
       </div>
 
       <a
-        className="repo-link mb-4"
+        className="repo-link mb-3"
         href="https://github.com/GustavsJJ/road-to-lu"
       >
         {i18n.t("PROJ_DETAILS")}

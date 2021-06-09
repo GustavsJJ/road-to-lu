@@ -7,6 +7,11 @@
   padding: 100px;
 }
 
+.next-chapter-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 .next-chapter-button {
   font-size: 20px;
   border: none;
