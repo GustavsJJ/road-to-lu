@@ -14,8 +14,11 @@ function Footer() {
         alt="LU-logo"
       />
       <div className="d-flex flex-wrap justify-content-around">
+        <p className="mx-2">{i18n.t("MADE_BY")}:</p>
+        <p className="mx-2">Gustavs Jānis Jākobsons</p>
+      </div>
+      <div className="d-flex flex-wrap justify-content-around">
         <p className="mx-3" style={{ alignItems: "left", color: "white" }}>
-          Made by:{" "}
           <a
             className="github-link"
             href="https://github.com/GustavsJJ"
@@ -38,11 +41,11 @@ function Footer() {
             </svg>
           </a>
         </p>
-        <p className="mx-4">gustavs.jakobsons@gmail.com</p>
+        <p className="mx-3">gustavs.jakobsons@gmail.com</p>
       </div>
 
       <a
-        className="repo-link mb-3"
+        className="repo-link mb-5"
         href="https://github.com/GustavsJJ/road-to-lu"
       >
         {i18n.t("PROJ_DETAILS")}

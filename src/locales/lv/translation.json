@@ -13,12 +13,12 @@
 
     "CONTINUE_READING": "Turpināt lasīt nākamo sadaļu",
     "NEXT_CHAPTER": "Nākamā Sadaļa",
-    "END_OF_THE_ROAD": "Ceļa beigas",
 
 
     "PROJ_DETAILS": "Vairāk informācijas par šo projektu",
+    "MADE_BY": "Veidoja",
 
-    "HOME_DESC": "Ceļš sākās",
+    "HOME_DESC": "Viss sākās te",
     "HOME1": "Manas mājas atrodas divās vietās dažādās vietās gan Ogrē, gan Carnikavā . Un, lai gan braucu uz universitāti no abām šīm vietām, ceļš uz universitāti nemainās būtiski, jo abos gadījumos attālums  ir jāveic izmantojot vilcienu un nonākot Rīgas centrālajā vilcienu stacijā. Taču šoreiz es stāstīšu par ceļu no Ogres uz Latvijas Universitāti.",
     "HOME2": "Mans ceļš sākās manās mājās – Ogrē. Māja atrodas kalna augšā un katru rītu man ir iespēja pavērot skatu no augšas, caur manu logu, pār visu Pārogri. Mājām man ir īpaša nozīme, jo esmu vairāk introverts, un man patīk daudz laika pavadīt vienam un darot kādu no saviem hobijiem vai skatoties kaut ko no “Youtube”. Bez atpūtas man ir arī jāpalīdz tētim ar mājas darbiem, jo tā kā nedzīvojam Ogrē ilgi, ir daudzas lietas, kas pagaidām nav apmierinošā stadijā un kas prasa remontu. Un, protams, attālināto mācību un darba dēļ, manas mājas ir nedaudz kļuvušas par manu mazo ofisu, kas gan nepasliktina situāciju, bet drīzāk pat uzlabo.",
     "HOME3": "Kad esmu nomazgājies, paēdis, es esmu gatavs iet ārā no mājas un doties uz Pārogres staciju.",
@@ -38,5 +38,16 @@
     "ORIGO_DESC": "Izkāpjot no vilciena",
     "ORIGO1": "Izkāpjot ārā no vilciena, es esmu nonācis “Origo” tirdzniecības centrā, kas arī apvieno Rīgas centrālo vilcienu staciju. Šajā brīdī es vienmēr esmu priecīgs atkal izkustināt savas kājas no apmēram 45 minūšu brauciena, taču līdzās man ir arī citi cilvēki, kas tikpat steidzīgi vēlās tikt prom no vilciena un stacijas, starp kuriem dažu sliktās manieres mani mēdz nokaitināt, kā piemēram, cilvēki, kas kategoriski atsakās ievērot divu metru distanci un vilkt pareizi maskas. Es noņemu austiņas, lai beigtu klausīties mūziku, un turpinu savu ceļu tālāk.",
     "ORIGO2": "Tirdzniecības centrā atrodas kafejnīcas un “Narvesen” kiosks, kuros es mēdzu paņemt kafiju, lai to izdzertu ceļā līdz universitātei. Brīžos, kad braucu uz Rīgu kopā ar tēti, mēs abi paņemam kafiju un, pirms dodos uz universitāti, man ir laiks, lai kopā aizietu uz Vecrīgas pusi. ",
-    "ORIGO3": "Taču lielākoties eju viens, izejot cauri tunelim, kas apvieno “Origo”, “Stockmann” lielveikalu un ceļu uz Rīgas centru. Līdz universitātei ir palicis jau pavisam maz."
+    "ORIGO3": "Taču lielākoties eju viens, izejot cauri tunelim, kas apvieno “Origo”, “Stockmann” lielveikalu un ceļu uz Rīgas centru. Līdz universitātei ir palicis jau pavisam maz.",
+
+    "RIGA_DESC": "Galvaspilsēta",
+    "RIGA1": "Rīga ir unikāla galvaspilsēta. Mani ļoti fascinē tās atmosfēra, pazīstamais maigums un interesantā arhitektūra. Mans tētis ir ļoti izglītots šajā jomā, jo strādā būvniecības firmā, un dažreiz, kad pastaigājamies, viņš mēdz pateikt interesantus faktus par dažām celtnēm. Man pašam arī ir bijusi kādreiz doma kļūt par arhitektu, iespējams šī iemesla dēļ, bet varētu minēt arī iemeslu, ka esmu arī liels “LEGO” fans un, būdams mazāks, veidoju dažādas konstrukcijas un ēkas no šiem klucīšiem.",
+    "RIGA2": "Caur Rīgu tek ļoti skaista upe – Daugava –, kurai piemīt plaši un daiļi skati. Pāri tai, ir Pārdaugava, kas arī apbrīno ar savu unikalitāti un romantismu un ietver kādu stāstu katrā tās ielā, kaut vai to, ka uz vienas no šīm ielām uzaugu arī es.",
+    "RIGA3": "Mans ceļš no “Origo” līdz universitātei aizņem aptuveni 10 minūtes. Par laimi šis ceļš, lai gan īss, pārņem ar savu skaistumu sākot ar pavasarīgo skatu uz parku beidzot ar brīnišķīgo vēstniecību, mūzikas skolu un pašas universitātes arhitektūru.",
+
+    "UNIVERSITY_DESC": "Ceļš beidzās",
+
+
+
+    "END_OF_THE_ROAD": "beigas"
 }

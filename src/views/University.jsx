@@ -5,7 +5,7 @@ import Chapter from "../components/Chapter/Chapter";
 function University({ t }) {
   return (
     <div class="university">
-      <Chapter title="UNIVERSITY" description="DESC" />
+      <Chapter title="UNIVERSITY" description="UNIVERSITY_DESC" />
       <div className="container">
         <h5>{t("Welcome to React")}</h5>
       </div>
