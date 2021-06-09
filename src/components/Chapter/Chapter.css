@@ -8,7 +8,7 @@ body .App .chapter-name {
   color: white;
   padding-bottom: 50px;
 
-  font-family: "Prata";
+  font-family: "Prata", serif;
 }
 
 .chapter-name h1 {
