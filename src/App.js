@@ -4,16 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { withNamespaces } from "react-i18next";
 import "./App.css";
 
-import {
-  ReactApp,
-  Home,
-  Ogre,
-  Views,
-  Music,
-  Origo,
-  Riga,
-  University,
-} from "./views";
+import { Home, Ogre, Views, Music, Origo, Riga, University } from "./views";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 
@@ -23,9 +14,6 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/about">
-            <ReactApp />
-          </Route>
           <Route path="/home">
             <Home />
           </Route>

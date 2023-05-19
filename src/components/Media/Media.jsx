@@ -5,7 +5,7 @@ import "./Media.css";
 function Media(props) {
   return (
     <div className="container-media">
-      <img src={props.image} alt={props.alt} />
+      <img src={props.image} alt={props.alt} loading="lazy" />
       <p>{props.text}</p>
     </div>
   );

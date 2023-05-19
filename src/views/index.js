@@ -1,4 +1,3 @@
-export { default as ReactApp } from "./ReactApp";
 export { default as Home } from "./Home";
 export { default as Ogre } from "./Ogre";
 export { default as Views } from "./Views";

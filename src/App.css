@@ -9,16 +9,9 @@ body .App {
 
   display: flex;
   flex-direction: column;
-  align-items: baseline;
-  margin: auto;
   justify-content: center;
   max-width: 1000px;
   padding: 0;
-}
-
-.App .container .hero-image {
-  width: 100%;
-  margin-bottom: 30px;
 }
 
 .App .container p {
