@@ -1,4 +1,13 @@
+.hero-container {
+  margin-bottom: 30px;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+}
+
+.hero-container > .lazy-load-image-background {
+  width: 100%;
+}
+
 .hero-image {
   width: 100%;
-  margin-bottom: 30px;
 }
