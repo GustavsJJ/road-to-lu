@@ -9,7 +9,7 @@ function Views({ t }) {
     <div class="views">
       <Chapter title="VIEWS" description="VIEWS_DESC" />
       <div className="container">
-        <HeroImage src={logs} alt="logs" />
+        <HeroImage src={logs} alt="logs" ratio="16x9" />
         <p>{t("VIEWS1")}</p>
         <img className="hero-image" src={udenskritums} alt="udenskritums" />
         <p>{t("VIEWS2")}</p>

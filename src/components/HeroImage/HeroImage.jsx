@@ -5,10 +5,7 @@ import "./HeroImage.css";
 
 function HeroImage(props) {
   return (
-    <div
-      className="hero-container"
-      style={{ aspectRatio: props.aspectRatio ?? props.aspectRatio }}
-    >
+    <div className={`hero-container ratio-${props.ratio ?? "4x3"}`}>
       <LazyLoadImage
         className="hero-image"
         effect="opacity"
