@@ -6,10 +6,10 @@ import somaLow from "../images/somaLow.jpg";
 
 function Home({ t }) {
   return (
-    <div class="home">
+    <div className="home">
       <Chapter title="HOME" description="HOME_DESC" />
       <div className="container">
-        <HeroImage src={soma} lowResSrc={somaLow} alt="soma" />
+        <HeroImage src={soma} placeholderSrc={somaLow} alt="soma" />
         <p>{t("HOME1")}</p>
         <p>{t("HOME2")}</p>
         <p>{t("HOME3")}</p>

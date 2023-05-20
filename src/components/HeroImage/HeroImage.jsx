@@ -10,7 +10,6 @@ function HeroImage(props) {
       alt={props.alt}
       {...props}
     />
-    // <img className="hero-image" loading="lazy" alt={props.alt} {...props} />
   );
 }
 
