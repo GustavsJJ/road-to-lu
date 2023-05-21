@@ -12,11 +12,11 @@ function Riga({ t }) {
       <div className="container">
         <HeroImage src={baznica} alt="doma-baznica" />
         <p className="mb-4">{t("RIGA1")}</p>
-        <img
-          className="daugava"
+        <HeroImage
           src={daugava}
-          alt="doma-baznica"
-          style={{ marginBottom: 30 }}
+          alt="daugava"
+          ratio="16x9"
+          style={{ marginBottom: 0 }}
         />
         <p>{t("RIGA2")}</p>
         <p>{t("RIGA3")}</p>
