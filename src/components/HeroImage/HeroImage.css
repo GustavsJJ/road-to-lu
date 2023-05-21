@@ -15,6 +15,10 @@
   aspect-ratio: 16 / 9;
 }
 
+.hero-container.ratio-2x1 {
+  aspect-ratio: 2 / 1;
+}
+
 .hero-image {
   width: 100%;
 }
